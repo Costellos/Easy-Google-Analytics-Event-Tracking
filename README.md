@@ -22,7 +22,7 @@ Add the script either in the head or right before the end of the body tag.
 Now configure a link on your page.
 
 ```html
-<a href="http://www.google.com" gatype="text-link" galabel="Homepage - Google Link">Google Link</a>
+<a href="http://www.google.com" data-gatype="text-link" data-galabel="Homepage - Google Link">Google Link</a>
 ```
 
 Thats all that is requred. If you run in to any issue feel free to let me know. Always looking for feedback.
