@@ -3,12 +3,11 @@
 <head>
 	<title>Easy Google Analytics Event Tracking</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/ga_events.js"></script>
 </head>
 <body>
 <h1>Demo</h1>
 
-<p>This is a test to make sure the <a href="http://www.google.com/" gatype="text-link" galabel="Demo Page - Google Link">event tracking</a> is working. </p>
+<p>This is a test to make sure the <a href="http://www.google.com/" data-gatype="text-link" data-galabel="Demo Page - Google Link" target="_blank">event tracking</a> is working. </p>
 
 <!-- My Google Analytics Code Do Not Use in your Demo -->
 <script>
@@ -21,5 +20,6 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript" src="js/ga_events.js"></script>
 </body>
 </html>
